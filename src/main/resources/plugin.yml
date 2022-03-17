@@ -1,0 +1,16 @@
+name: CheeseAC
+version: ${project.version}
+main: co.n0rthyankt0n.cheeseac.CheeseAC
+authors: [BaGuAr]
+description: New Simple Hacker rekter.
+commands:
+  cheesegui:
+    permission: cheeseac.setting
+  cheeseac:
+  cheeseflag:
+    permission: cheeseac.notify
+  cheesetheme:
+    permission: cheeseac.setting
+  cheeseviolations:
+    aliases: [cacviolations, cacvio]
+    permission: cheeseac.setting

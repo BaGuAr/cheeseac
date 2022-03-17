@@ -1,0 +1,169 @@
+alert-prefix-theme: 1
+alert-theme: NEW8
+alert-format: "&bCheeseAC&8:&5 %%player%%&7 violated &a%%check-up%%&8(&b%%type-up%%&8) (&b%%vio%%vl&8) (&b%%ping%%&8)"
+alert-to-log: true
+permissions:
+  bypass:
+    status: false
+    permission: cheeseac.bypass
+  flag-log-enable-command:
+    permission: cheeseac.notify
+settings:
+  Reach:
+    A:
+      status: true
+      flagStatus: false
+  Fly:
+    A:
+      status: true
+      flagStatus: false
+    B:
+      status: true
+      flagStatus: false
+    C:
+      status: true
+      flagStatus: false
+    D:
+      status: true
+      flagStatus: false
+    E:
+      status: true
+      flagStatus: false
+    F:
+      status: true
+      flagStatus: false
+      settings:
+        airtick: 2
+    G:
+      status: true
+      flagStatus: false
+      settings:
+        Type1:
+          status: true
+          value: 0.69
+        Type2:
+          status: true
+          value: 0.999
+        Type3:
+          status: true
+          value: 0.759
+        Type4: true
+    H:
+      status: true
+      flagStatus: false
+    I:
+      status: true
+      flagStatus: false
+    J:
+      status: true
+      flagStatus: false
+      settings:
+        UP: true
+        DOWN: true
+        SAME: true
+    K:
+      status: true
+      flagStatus: false
+    L:
+      status: true
+      flagStatus: false
+  Speed:
+    A:
+      status: true
+      flagStatus: false
+    B:
+      status: true
+      flagStatus: false
+    C:
+      status: true
+      flagStatus: false
+    D:
+      status: true
+      flagStatus: false
+    E:
+      status: true
+      flagStatus: false
+  Invalid:
+    A:
+      status: false
+      flagStatus: false
+    B:
+      status: true
+      flagStatus: false
+      settings:
+        XZ: true
+        Y: true
+    C:
+      status: true
+      flagStatus: false
+      settings:
+        pitch: true
+        ground: true
+        glide: true
+    D:
+      status: true
+      flagStatus: false
+      settings:
+        max: true
+        min: false
+        val: false
+    E:
+      status: true
+      flagStatus: false
+      settings:
+        debug: false
+    F:
+      status: true
+      flagStatus: false
+    G:
+      status: true
+      flagStatus: false
+    H:
+      status: true
+      flagStatus: false
+      settings:
+        illegalDeltaY:
+          airtick: 6
+  Sprint:
+    A:
+      status: true
+      flagStatus: false
+      settings:
+        sneaking: true
+        blocking: true
+        distance:
+          status: true
+          value: 0.21589
+        food: true
+        blindness: true
+        omni: false
+  Jump:
+    A:
+      status: true
+      flagStatus: false
+    B:
+      status: true
+      flagStatus: false
+    C:
+      status: true
+      flagStatus: false
+  GroundSpoof:
+    A:
+      status: true
+      flagStatus: false
+  AntiCactus:
+    A:
+      status: true
+      flagStatus: false
+  Timer:
+    A:
+      status: true
+      flagStatus: false
+  InvMove:
+    A:
+      status: true
+      flagStatus: false
+  FastEat:
+    A:
+      status: true
+      flagStatus: false
